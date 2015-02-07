@@ -101,6 +101,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap.css" />
@@ -488,7 +489,7 @@
     <Content Include="bower_components\respond\src\respond.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="gulpfile.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -638,6 +639,10 @@
     <Content Include="bower_components\respond\LICENSE-MIT" />
     <Content Include="bower_components\respond\package.json" />
     <Content Include="bower_components\respond\README.md" />
+    <Content Include="package.json" />
+    <Content Include="Content\layout.less" />
+    <Content Include="Content\forms.less" />
+    <Content Include="Content\_mixins.less" />
     <None Include="Project_Readme.html" />
     <Content Include="README.md" />
   </ItemGroup>

@@ -1,0 +1,28 @@
+{
+  "name": "gulp-npm-bower-visual-studio",
+  "version": "1.0.0",
+  "description": "NPM packages for gulp visual studio build",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.10"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-less": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrybrown/node-npm-gulp-bower-visual-studio"
+  },
+  "author": "Terry Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrybrown/node-npm-gulp-bower-visual-studio/issues"
+  },
+  "homepage": "https://github.com/terrybrown/node-npm-gulp-bower-visual-studio"
+}
