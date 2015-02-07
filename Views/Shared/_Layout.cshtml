@@ -4,9 +4,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>@ViewBag.Title - My ASP.NET Application</title>
-	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="~/Content/Site.css" rel="stylesheet" />
-	<script src="~/Scripts/modernizr-2.6.2.js"></script>
+	<script src="~/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -35,12 +35,11 @@
 			<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
 		</footer>
 	</div>
-
-	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
-	<script src="~/Scripts/jquery.validate.min.js"></script>
-	<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-	<script src="~/Scripts/bootstrap.js"></script>
-	<script src="~/Scripts/respond.min.js"></script>
+	<script src="~/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="~/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/bower_components/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+	<script src="~/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="~/bower_components/respond/dest/respond.min.js"></script>
 	@RenderSection("scripts", required: false)
 </body>
 </html>
